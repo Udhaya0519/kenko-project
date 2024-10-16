@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.steps {
+  background-image: url("../assets/images/17.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  padding: 40px;
+  padding-bottom: 100px;
+}
+
+.canvapre {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-top: 5px;
+}
+
+.levels {
+  position: absolute;
+  top: 0;
+  left: 30%;
+}
+
+.levels > ul > li:last-child {
+  margin-bottom: 0;
+}
+.levels > ul > li {
+  margin-bottom: 370px;
+  background: linear-gradient(180deg, #0a2724 26.5%, #0d1f2c 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+}
